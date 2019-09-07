@@ -24,7 +24,7 @@ rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
 rm -f $TOMCAT_APP_PATH/webapps/zion.war
 
 #复制新工程到tomcat的部署目录
-cd $PROJ_PATH/zion/target/zion.war $TOMCAT_APP_PATH/webapps/
+cp $PROJ_PATH/zion/target/zion.war $TOMCAT_APP_PATH/webapps/
 
 # 进入tomcat部署目录
 cd $TOMCAT_APP_PATH/webapps/
