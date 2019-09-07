@@ -2,6 +2,7 @@ package com.bizzbee.zion.dao;
 
 import java.util.List;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,6 +14,7 @@ public class AreaDaoTest extends BaseTest{
 	private AreaDao areaDao;
 	
 	@Test
+	@Ignore
 	public void testQueryArea(){
 		List<Area> areaList = areaDao.queryArea();
 		
