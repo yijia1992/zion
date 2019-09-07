@@ -24,6 +24,7 @@ public class ShopServiceTest extends BaseTest{
 	@Autowired
 	private ShopService shopService;
 	@Test
+	@Ignore
 	public void testGetShopList() {
 
 		Shop shopCondition = new Shop();
@@ -41,6 +42,7 @@ public class ShopServiceTest extends BaseTest{
 	
 	
 	@Test
+	@Ignore
 	public void testModifyShop() throws IOException {
 		Shop shop = new Shop();
 		shop.setShopId(1L);
